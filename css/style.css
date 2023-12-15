@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #9cbcd2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Añade margen entre los enlaces si es necesario */
+  }
+  
+  /* Cambiar color de enlaces al pasar el mouse por encima */
+  header a:hover {
+    color: lightgray;
+  }
+  
+  /* Estilos del cuerpo */
+  main {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  section {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+  }
+  form {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para los elementos del formulario */
+  form label,
+  form input,
+  form textarea,
+  form input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas */
+    grid-gap: 10px; /* Espacio entre elementos */
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen al contenedor */
+    height: auto;
+  }
+  
