@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi primera página web</h1>
+        <p>MARÍA FAZIO ARRABAL</p>
+</header>
+</head>
+<body>
+    <body>
+        <header>
+            <a href="../index.html">PÁGINA PRINCIPAL</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="sobremi.html">SOBRE MI</a>
+            <a href="red.html">RED</a>
+            <a href="fundamentos.html">FUNDAMENTOS</a>
+            <a href="malaga.html">MÁLAGA</a>
+        </header>
+    </body>
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <p>Formulario para contactar con nosotros. </br></p>
+            <title>Formulario de Contacto</title>
+            <script>
+            function enviarFormulario() {
+                document.getElementById("formulario").style.display = "none"; 
+                document.getElementById("mensaje-enviado").style.display = "block"; 
+                return false;
+            }
+        </script>
+        <form>
+            <body>
+                <div class="container">
+                    <h2>Formulario de Contacto</h2>
+                    <form id="formulario" onsubmit="return enviarFormulario()"> 
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+            
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                        <input type="submit" value="Enviar">
+                    </form>
+                    <div id="mensaje-enviado"> Enviado
+                    </div>
+        </form>
+        </section>
+    </main>
+</body>
+</html>
