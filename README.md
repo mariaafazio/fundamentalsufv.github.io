@@ -9,4 +9,4 @@ A continuación comentaré los diferentes problemas con los que me he enfrentado
 
 Como conclusiones podría decir que la manera más útil de aprender html sería comenzarlo de cero, sin ninguna plantilla y siguiendo una serie de pasos. También es bueno que otros te ayuden y ver algún vídeo para la comprensión de cada comando. Pese al simple resultado, termino muy contenta del proyecto final, pues puedo decir que he aprendido muchas habilidades sobre el desarrollo de páginas webs. 
 
-La dirección a mi página web: https: https://github.com/mariaafazio/fundamentalsufv.github.io.git
+La dirección a mi página web: https://mariaafazio.github.io/fundamentalsufv.github.io/ 
